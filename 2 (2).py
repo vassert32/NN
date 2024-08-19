@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 N = 5
 b = 3
@@ -24,9 +23,3 @@ for i in range(N):
         print("Класс C1")
     else:
         print("Класс C2")
-
-plt.scatter(C1[0][:], C1[1][:], s=10, c='red')
-plt.scatter(C2[0][:], C2[1][:], s=10, c='blue')
-plt.plot(f)
-plt.grid(True)
-plt.show()
